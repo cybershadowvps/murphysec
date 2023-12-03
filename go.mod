@@ -4,7 +4,7 @@ go 1.19
 
 require (
 	github.com/AlecAivazis/survey/v2 v2.3.7
-	github.com/antchfx/xmlquery v1.3.17
+	github.com/antchfx/xmlquery v1.3.18
 	github.com/bahlo/generic-list-go v0.2.0
 	github.com/denisbrodbeck/machineid v1.0.1
 	github.com/dlclark/regexp2 v1.10.0
