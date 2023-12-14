@@ -55,7 +55,7 @@ jobs:
         run: mv out/murphysec-${{ matrix.goos }}-${{ matrix.goarch }} out/murphysec-${{ matrix.goos }}-${{ matrix.goarch }}.exe
 
       - name: Upload artifacts
-        uses: actions/upload-artifact@v3
+        uses: actions/upload-artifact@v4
         with:
           name: murphysec-${{ matrix.goos }}-${{ matrix.goarch }}
           path: out/*
@@ -85,7 +85,7 @@ jobs:
       - run: ls -alh
         if: always()
       - name: Upload artifacts - 7zip-bundle
-        uses: actions/upload-artifact@v3
+        uses: actions/upload-artifact@v4
         with:
           name: 7zip-bundle
           path: ./bundle.7z
